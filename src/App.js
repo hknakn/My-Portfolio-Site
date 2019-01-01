@@ -12,15 +12,16 @@ class App extends Component {
 
       <div className="demo-big-content">
           <Layout>
-              <Header className="header-color" title="Title" scroll>
+              <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Montserrat', fontSize: '26px', fontWeight: 'bold'}} to="/">
+              <i className="fa fa-code" aria-hidden="true"></i>  Hakan Akın</Link>} scroll>
                   <Navigation>
-                      <Link to="/resume">Resume</Link>
-                      <Link to="/aboutme">About Me</Link>
-                      <Link to="/projects">Projects</Link>
-                      <Link to="/contact">Contact</Link>
+                      <Link to="/resume"><p className="navigation-text">Özgeçmiş</p></Link>
+                      <Link to="/aboutme"><p className="navigation-text">Blog</p></Link>
+                      <Link to="/projects"><p className="navigation-text">Projeler</p></Link>
+                      <Link to="/contact"><p className="navigation-text">İletişim</p></Link>
                   </Navigation>
               </Header>
-              <Drawer title="Title">
+              <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">My Portfolio</Link>}>
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/aboutme">About Me</Link>

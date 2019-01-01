@@ -20,25 +20,31 @@ class Landing extends Component{
 
                 <div className="social-links">
 
-                    {/* Twitter */}
-                    <a href="https://www.linkedin.com/in/cehakanakin/" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    </a>
-
                     {/* Github */}
                     <a href="https://www.github.com/hknakn/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
+
+                    {/* Stack Overflow */}
+                    <a href="https://stackoverflow.com/users/9230889/hakan-ak%C4%B1n" rel="noopener noreferrer" target="_blank">
+                        <i className="fa    fa-stack-overflow" aria-hidden="true" />
+                    </a> 
+
+                    {/* Linkedin */}
+                    <a href="https://www.linkedin.com/in/cehakanakin/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    </a>
+
+                    {/* Twitter */}
+                    <a href="https://www.github.com/hknakn/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-twitter-square" aria-hidden="true" />
+                    </a>  
 
                     {/* Instagram */}
                     <a href="https://www.instagram.com/hakanakaakin/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-instagram" aria-hidden="true" />
                     </a>  
 
-                    {/* Twitter */}
-                    <a href="https://www.github.com/hknakn/" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-twitter-square" aria-hidden="true" />
-                    </a>  
                 </div>                                           
                   </div>
                 

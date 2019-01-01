@@ -1,63 +1,266 @@
+/* Landing Page CSS */
+
 .header-color {
   background: #00c6ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .landing-grid {
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("https://i.ibb.co/5knkcmD/indir.png");
   text-align: center;
   position: fixed;
-  top: 1;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
-.avatar-img{
-  height: 250px;
-  margin-top: 1em;
-  border-radius: 50%;
-}
-
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  font-size: 66px;
+.navigation-text {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: white;
-  padding: 10px;
+  font-size: 15px;
+  margin: auto;
 }
 
-.banner-text hr {
-  border-top: 6px dotted white;
+/* Projects Page CSS */
+
+@media only screen and (min-width: 768px) {
+  .projects-card {
+    width: 22em;
+    height: 19em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: auto; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-card {
+    width: 22em;
+    height: 19em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: auto; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-grid {
+    display: flex;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-grid {
+    display: inline;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Resume Page CSS */
+
+.resume-right-col {
+  background: white;
+  color: black;
+  padding: 2em;
+}
+
+.name {
+  padding-top: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  color: #3F51B5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.info {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.resume-hr-small {
+  height: 3px;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 50%;
+}
+
+.resume-h5 {
+  color: #3F51B5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Resume.Js Page CSS */
+
+.resume-h4 {
+  color: rgb(49, 49, 49);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.resume-h6 {
+  color: rgb(49, 49, 49);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.resume-hr-tall {
+  height: 3px;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Skills.js Page CSS */
+
+.progress {
+  width: 75%;
+  margin-top: 20px;
+}
+
+.skill-name {
+  font-size: 1.2em;
+  color: rgb(49, 49, 49);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+/* Contact Page CSS */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p {
-  color:  white;
-  font-size: 20px;
-  padding: 1em;
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.avatar-img{
+  height: 250px;
+  margin-top: 7em;
+  border-radius: 50%;
+  border: 1.5px solid black;
+  box-shadow: 0 0 10px black;
+}
+
+.banner-text {
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  opacity: 0.8;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  box-shadow: 0 0 10px black;
+  margin-top: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-text p {
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-text p {
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 1.5em;
+  }
+}
+
+.banner-text hr {
+  border-top: 4px solid white;
+  width: 55%;
+  margin: auto;
 }
 
 .social-links {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
-  width: 40%;
   margin: auto;
 }
 
 .social-links i {
-  color: white;
-  font-size: 4em;
-  padding: 10px;
+  color: black;
+  font-size: 5em;
+  padding: 20px;
 }
