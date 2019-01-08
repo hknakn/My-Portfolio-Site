@@ -21,12 +21,12 @@ class App extends Component {
                       <Link to="/contact"><p className="navigation-text">İletişim</p></Link>
                   </Navigation>
               </Header>
-              <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">My Portfolio</Link>}>
+              <Drawer title={<Link style={{textDecoration: 'none', color: 'black', fontFamily: 'Montserrat', fontSize: '20px', fontWeight: 'bold'}} to="/"><i className="fa fa-code" aria-hidden="true"></i>  Hakan Akın</Link>}>
                   <Navigation>
-                      <Link to="/resume">Resume</Link>
-                      <Link to="/aboutme">About Me</Link>
-                      <Link to="/projects">Projects</Link>
-                      <Link to="/contact">Contact</Link>
+                      <Link to="/resume"><p className="drawer-text">Özgeçmiş</p></Link>
+                      <Link to="/aboutme"><p className="drawer-text">Blog</p></Link>
+                      <Link to="/projects"><p className="drawer-text">Projeler</p></Link>
+                      <Link to="/contact"><p className="drawer-text">İletişim</p></Link>
                   </Navigation>
               </Drawer>
               <Content>
